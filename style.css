@@ -3,6 +3,8 @@ body {
 }
 .header {
     display: flex;
+    justify-content: center;
+    gap: 20px;
     background-color: #1F2937;
     color: #f9faf8;
     font-family: roboto;
@@ -43,24 +45,12 @@ ul li {
 .banner {
     background-color: #1F2937;
     display: flex;
-    flex: 1 1 0;
     color: #f9faf8;
     font-family: roboto;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 40px;
     padding-bottom: 70px;
-    width: 100%;
     justify-content: center;
-}
-
-.banner-right {
-    display: inline;
-    margin-left: 40px;
-}
-
-.banner-left {
-    display: inline;
+    gap: 40px;
 }
 
 .banner-left h1 {
@@ -83,4 +73,97 @@ ul li {
 .banner-left button a {
     color: #f9faf8;
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.picture-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.picture-tiles img {
+    height: auto;
+    width: 210px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+
+.picture-tiles p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb ;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 60px 0 60px 0;
+}
+
+.testimonial span {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer .call-to-action {
+    display: flex;
+    gap: 70px;
+    border-radius: 10px;
+    height: 120px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 30px;
+}
+
+.footer .cta-button {
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer .call-to-action div button {
+    background-color: #3882F6 ;
+    color: #f9faf8;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #f9faf8;
+    box-shadow: none;
+    padding: 5px 20px 5px 20px;
+}
+
+.footer div h3 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+.footer div p {
+    margin-top: 5px;
 }
